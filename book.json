@@ -9,7 +9,6 @@
         "Blog": "https://blog.stuarthua.com/"
     }
   },
-  "output": null,
   "plugins": [
     "-sharing",
     "-highlight",
@@ -62,10 +61,7 @@
       "feed_url": "https://stuarthua.github.io/gitbook-template/rss",
       "site_url": "https://stuarthua.github.io/gitbook-template/",
       "managingEditor": "stuarthua.cn@gmail.com",
-      "webMaster": "stuarthua.cn@gmail.com",
-      "categories": [
-          "gitbook"
-      ]
+      "webMaster": "stuarthua.cn@gmail.com"
     },
     "anchor-navigation-ex": {
       "showLevel": false,
