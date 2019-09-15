@@ -1,3 +1,6 @@
+# 使用 SUMMARY.md
+
+```
 ## Gitbook Template
 
 - [简介](README.md)
@@ -21,3 +24,4 @@
     - [使用 GLOSSARY.md](mybook/3-Extend/setting-glossary.md)
     - [默认插件设置](mybook/3-Extend/setting-default-plugin.md)
     - [使用插件](mybook/3-Extend/some-plugin.md)
+```
