@@ -1,0 +1,17 @@
+/* remove gitbook link */
+.gitbook-link {
+    display: none !important;
+}
+
+/* Todo */
+input[type=checkbox]{
+    margin-left: -2em;
+}
+
+/* Prism */
+pre[class*="language-"] {
+    border: none;
+    background-color: #f7f7f7;
+    font-size: 1em;
+    line-height: 1.2em;
+}

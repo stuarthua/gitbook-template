@@ -1,0 +1,49 @@
+{
+  "title": "Gitbook Template",
+  "description": "A template for gitbook",
+  "author": "Stuart Hua",
+  "language": "zh-hans",
+  "gitbook": "3.2.3",
+  "links": {
+    "sidebar": {
+        "Blog": "https://blog.stuarthua.com/"
+    }
+  },
+  "plugins": [
+    "-sharing",
+    "-highlight",
+    "prism",
+    "prism-themes",
+    "-lunr",
+    "-search",
+    "search-plus",
+    "splitter",
+    "page-footer-ex",
+    "sectionx",
+    "anchor-navigation-ex",
+    "todo"
+  ],
+  "pluginsConfig": {
+    "prism": {
+      "css": [
+          "prism-themes/themes/prism-base16-ateliersulphurpool.light.css"
+      ]
+    },
+    "page-footer-ex": {
+      "copyright": "Copyright &copy stuarthua.com 2019",
+      "markdown": false,
+      "update_label": "<i>该文件修订时间：</i>",
+      "update_format": "YYYY-MM-DD HH:mm:ss"
+    },
+    "sectionx": {
+      "tag": "b"
+    },
+    "anchor-navigation-ex": {
+      "showLevel": false,
+      "associatedWithSummary": false
+    },
+    "theme-default": {
+      "showLevel": false
+    }
+  }
+}
