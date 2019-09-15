@@ -19,3 +19,4 @@
 * [使用 GLOSSARY.md](setting-glossary.md)
 * [默认插件设置](setting-default-plugin.md)
 * [使用插件](some-plugin.md)
+* [自动部署](publish.md)

@@ -38,7 +38,7 @@ GitBook 基本的目录结构如下所示：
 
 这个配置对应的目录结构如下所示:
 
-![](/gitbook/images/summary1.png)
+![summary1.png](https://raw.githubusercontent.com/stuarthua/PicGo/master/tmp/summary1.png)
 
 通过使用 标题 或者 水平分割线 标志将 GitBook 分为几个不同的部分
 
@@ -63,7 +63,7 @@ GitBook 基本的目录结构如下所示：
 
 这个配置对应的目录结构如下所示：
 
-![](/gitbook/images/summary2.png)
+![summary2.png](https://raw.githubusercontent.com/stuarthua/PicGo/master/tmp/summary2.png)
 
 ## Glossary
 
