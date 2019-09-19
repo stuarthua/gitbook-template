@@ -352,3 +352,65 @@ input[type=checkbox]{
 使用效果：
 
 ![Snipaste_2019-09-16_02-45-47.png](https://raw.githubusercontent.com/stuarthua/PicGo/master/tmp/Snipaste_2019-09-16_02-45-47.png)
+
+### expandable-chapters
+
+增加侧边栏标题展开收缩功能
+
+```json
+"plugins": [
+  "expandable-chapters"
+]
+```
+
+使用效果：
+
+![expandable-chapters.png](https://raw.githubusercontent.com/stuarthua/PicGo/master/gitbook-template/expandable-chapters.png)
+
+### donate
+
+增加打赏功能
+
+```json
+"plugins": [
+  "donate"
+],
+"pluginsConfig": {
+  "donate": {
+    "button": "打赏",
+    "alipayText": "支付宝打赏",
+    "wechatText": "微信打赏",
+    "alipay": "xxx.jpg",
+    "wechat": "xxx.jpg"
+  }
+}
+```
+
+### baidu-tongji
+
+给 GitBook 的站点添加百度统计，这样用户的访问数量可以通过百度统计查看到
+
+```json
+"plugins": [
+  "baidu-tongji"
+],
+"pluginsConfig": {
+  "baidu-tongji": {
+    "token": "xxxxxx"
+  }
+}
+```
+
+### copy-code-button
+
+给 GitBook 的 Code 添加复制功能，可以一键复制代码块的所有代码
+
+```json
+"plugins": [
+  "copy-code-button"
+]
+```
+
+效果预览：
+
+![copy-button.png](https://raw.githubusercontent.com/stuarthua/PicGo/master/gitbook-template/copy-button.png)

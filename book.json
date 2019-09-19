@@ -17,6 +17,8 @@
     "-lunr",
     "-search",
     "search-pro",
+    "expandable-chapters",
+    "copy-code-button",
     "advanced-emoji",
     "splitter",
     "edit-link",
@@ -26,7 +28,6 @@
     "github",
     "rss",
     "anchor-navigation-ex",
-    "disqus",
     "ace"
   ],
   "pluginsConfig": {
@@ -66,9 +67,6 @@
     "anchor-navigation-ex": {
       "showLevel": false,
       "associatedWithSummary": false
-    },
-    "disqus": {
-      "shortName": "stuarthua"
     }
   }
 }
