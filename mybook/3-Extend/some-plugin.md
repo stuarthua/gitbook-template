@@ -106,6 +106,7 @@ pre[class*="language-"] {
 
 使用示例：
 
+```
 {%ace edit=true, lang='c_cpp'%}
 // This is a hello world program for C.
 #include <stdio.h>
@@ -115,6 +116,13 @@ int main(){
   return 1;
 }
 {%endace%}
+```
+
+效果预览：
+
+![Snipaste_2019-09-21_22-08-12.png](https://raw.githubusercontent.com/stuarthua/PicGo/master/gitbook-template/Snipaste_2019-09-21_22-08-12.png)
+
+> **注意：** 开启此插件，使用 gitbook 生成 epub、mobi 格式电子书时，有可能失败
 
 ### splitter
 
@@ -173,6 +181,8 @@ int main(){
 使用效果：
 
 ![Snipaste_2019-09-16_02-13-01.png](https://raw.githubusercontent.com/stuarthua/PicGo/master/tmp/Snipaste_2019-09-16_02-13-01.png)
+
+> **注意：** 开启此插件，使用 gitbook 生成 epub、mobi 格式电子书时，页脚样式会添加到正文中
 
 ### sectionx
 
@@ -367,6 +377,21 @@ input[type=checkbox]{
 
 ![expandable-chapters.png](https://raw.githubusercontent.com/stuarthua/PicGo/master/gitbook-template/expandable-chapters.png)
 
+### expandable-chapters-small
+
+增加侧边栏标题展开收缩功能，图标较小
+
+```json
+"plugins": [
+  "expandable-chapters-small"
+]
+```
+
+使用效果：
+
+![Snipaste_2019-09-21_21-37-53.png](https://raw.githubusercontent.com/stuarthua/PicGo/master/gitbook-template/Snipaste_2019-09-21_21-37-53.png)
+
+
 ### donate
 
 增加打赏功能
@@ -386,6 +411,134 @@ input[type=checkbox]{
 }
 ```
 
+### copy-code-button
+
+给 GitBook 的 Code 添加复制功能，可以一键复制代码块的所有代码
+
+```json
+"plugins": [
+  "copy-code-button"
+]
+```
+
+效果预览：
+
+![copy-button.png](https://raw.githubusercontent.com/stuarthua/PicGo/master/gitbook-template/copy-button.png)
+
+### theme-comscore
+
+区分标题颜色的主题
+
+```json
+"plugins": [
+  "theme-comscore"
+]
+```
+
+效果预览：
+
+![Snipaste_2019-09-21_20-54-30.png](https://raw.githubusercontent.com/stuarthua/PicGo/master/gitbook-template/Snipaste_2019-09-21_20-54-30.png)
+
+### toolbar-button
+
+添加工具栏按钮，如添加下载 PDF 按钮
+
+```json
+"plugins": [
+  "toolbar-button"
+]
+"pluginsConfig": {
+    "toolbar-button": {
+      "url": "https://stuarthua.github.io/gitbook-template/gitbook-template.pdf", 
+      "icon": "fa-file-pdf-o", 
+      "label": "下载PDF"
+    },
+}
+```
+
+需要安装 [gitbook-pdf](https://www.npmjs.com/package/gitbook-pdf) 插件和 [calibre](https://calibre-ebook.com)，生成 PDF：
+
+```
+# 安装 gitbook-pdf
+## 如果无法下载 phantomjs-1.9.7-macosx.zip，可在 https://bitbucket.org/ariya/phantomjs/downloads/ 目录中找到 phantomjs-1.9.8-macosx.zip 手动放到报错目录，再次执行安装即可
+npm install gitbook-pdf -g
+
+# 安装 calibre
+brew cask install calibre
+```
+
+生成 PDF：
+
+```bash
+gitbook pdf .
+```
+
+同理，也可生成 ePub 和 Mobi 格式电子书
+
+```bash
+gitbook epub .
+gitbook mobi .
+```
+
+效果预览：
+
+![Snipaste_2019-09-21_20-56-14.png](https://raw.githubusercontent.com/stuarthua/PicGo/master/gitbook-template/Snipaste_2019-09-21_20-56-14.png)
+
+### callouts
+
+更好看的 hint callout 提示
+
+```json
+{
+    "plugins": ["callouts"],
+    "pluginsConfig":{
+        "callouts":{
+            "showTypeInHeader": false
+        }
+    }
+}
+```
+
+效果预览：
+
+![hints-callouts.jpg](https://raw.githubusercontent.com/stuarthua/PicGo/master/gitbook-template/hints-callouts.jpg)
+
+### sitemap-general
+
+生成站点地图，方便搜索引擎收录
+
+```json
+{
+    "plugins": [
+        "sitemap-general"
+    ],
+    "pluginsConfig":{
+        "sitemap-general":{
+            "prefix": "https://stuarthua.github.io/gitbook-template/"
+        }
+    }
+}
+```
+
+### ga
+
+Google 统计
+
+```json
+{
+    "plugins": [
+        "ga"
+    ],
+    "pluginsConfig": {
+        "ga": {
+            "token": "UA-XXXX-Y"
+        }
+    }
+}
+```
+
+token 从 Google Analytics 中获取
+
 ### baidu-tongji
 
 给 GitBook 的站点添加百度统计，这样用户的访问数量可以通过百度统计查看到
@@ -400,17 +553,3 @@ input[type=checkbox]{
   }
 }
 ```
-
-### copy-code-button
-
-给 GitBook 的 Code 添加复制功能，可以一键复制代码块的所有代码
-
-```json
-"plugins": [
-  "copy-code-button"
-]
-```
-
-效果预览：
-
-![copy-button.png](https://raw.githubusercontent.com/stuarthua/PicGo/master/gitbook-template/copy-button.png)

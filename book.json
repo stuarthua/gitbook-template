@@ -17,18 +17,22 @@
     "-lunr",
     "-search",
     "search-pro",
-    "expandable-chapters",
+    "theme-comscore",
+    "sitemap-general",
+    "toolbar-button",
+    "callouts",
+    "expandable-chapters-small",
     "copy-code-button",
     "advanced-emoji",
     "splitter",
-    "edit-link",
     "page-footer-ex",
     "sectionx",
     "todo",
     "github",
     "rss",
     "anchor-navigation-ex",
-    "ace"
+    "ace",
+    "ga"
   ],
   "pluginsConfig": {
     "theme-default": {
@@ -49,11 +53,15 @@
       "tag": "b"
     },
     "github": {
-      "url": "https://github.com/stuarthua/gitbook-template"
+      "url": "https://github.com/stuarthua/gitbook-template/"
     },
-    "edit-link": {
-      "base": "https://github.com/stuarthua/gitbook-template/edit/master",
-      "label": "edit"
+    "toolbar-button": {
+      "url": "https://stuarthua.github.io/gitbook-template/gitbook-template.pdf", 
+      "icon": "fa-file-pdf-o", 
+      "label": "下载PDF"
+    },
+    "sitemap-general": {
+      "prefix": "https://stuarthua.github.io/gitbook-template/"
     },
     "rss": {
       "title": "gitbook-template",
@@ -67,6 +75,12 @@
     "anchor-navigation-ex": {
       "showLevel": false,
       "associatedWithSummary": false
+    },
+    "callouts":{
+      "showTypeInHeader": false
+    },
+    "ga": {
+      "token": "UA-55082727-6"
     }
   }
 }
