@@ -209,6 +209,8 @@ Insert markdown content here (you should start with h3 if you use heading).
 
 <!--endsec-->
 
+> **注意：** 该插件开启后，和 callouts 有冲突，建议置于 callouts 插件之前加载
+
 ### todo
 
 使用 `todo` 添加 Todo 功能。
@@ -502,6 +504,8 @@ gitbook mobi .
 效果预览：
 
 ![hints-callouts.jpg](https://raw.githubusercontent.com/stuarthua/PicGo/master/gitbook-template/hints-callouts.jpg)
+
+> **注意：** 该插件开启后，和 sectionx 有冲突，建议置于 sectionx 插件后
 
 ### sitemap-general
 
