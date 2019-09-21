@@ -56,8 +56,8 @@
       "url": "https://github.com/stuarthua/gitbook-template/"
     },
     "toolbar-button": {
-      "url": "https://stuarthua.github.io/gitbook-template/gitbook-template.pdf", 
-      "icon": "fa-file-pdf-o", 
+      "url": "https://raw.githubusercontent.com/stuarthua/gitbook-template/master/download/gitbook-template.pdf", 
+      "icon": "fa-file-pdf-o",
       "label": "下载PDF"
     },
     "sitemap-general": {
