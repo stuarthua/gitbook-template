@@ -203,6 +203,16 @@ int main(){
 
 使用示例：
 
+```
+<!--sec data-title="Sectionx Demo" data-id="section0" data-show=true ces-->
+
+Insert markdown content here (you should start with h3 if you use heading).  
+
+<!--endsec-->
+```
+
+效果预览：
+
 <!--sec data-title="Sectionx Demo" data-id="section0" data-show=true ces-->
 
 Insert markdown content here (you should start with h3 if you use heading).  
@@ -485,6 +495,8 @@ gitbook mobi .
 效果预览：
 
 ![Snipaste_2019-09-21_20-56-14.png](https://raw.githubusercontent.com/stuarthua/PicGo/master/gitbook-template/Snipaste_2019-09-21_20-56-14.png)
+
+> **注意：** 使用此插件，会覆盖 edit-link 插件、rss 插件、fontsetting 插件的标题栏显示
 
 ### callouts
 

@@ -19,7 +19,7 @@
     "search-pro",
     "theme-comscore",
     "sitemap-general",
-    "toolbar-button",
+    "edit-link",
     "expandable-chapters-small",
     "copy-code-button",
     "advanced-emoji",
@@ -55,10 +55,9 @@
     "github": {
       "url": "https://github.com/stuarthua/gitbook-template/"
     },
-    "toolbar-button": {
-      "url": "https://raw.githubusercontent.com/stuarthua/gitbook-template/master/download/gitbook-template.pdf", 
-      "icon": "fa-file-pdf-o",
-      "label": "下载PDF"
+    "edit-link": {
+      "base": "https://github.com/stuarthua/gitbook-template/edit/master",
+      "label": "Edit"
     },
     "sitemap-general": {
       "prefix": "https://stuarthua.github.io/gitbook-template/"
