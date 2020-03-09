@@ -19,6 +19,7 @@
     "search-pro",
     "theme-comscore",
     "sitemap-general",
+    "favicon-absolute",
     "edit-link",
     "expandable-chapters-small",
     "copy-code-button",
@@ -61,6 +62,10 @@
     },
     "sitemap-general": {
       "prefix": "https://stuarthua.github.io/gitbook-template/"
+    },
+    "favicon-absolute":{
+      "favicon": "/gitbook/images/favicon.ico",
+      "appleTouchIconPrecomposed152": "/gitbook/images/apple-touch-icon-precomposed-152.png"
     },
     "rss": {
       "title": "gitbook-template",
