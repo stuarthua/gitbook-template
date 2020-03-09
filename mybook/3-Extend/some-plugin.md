@@ -9,6 +9,7 @@ Gitbook 3.2.3 默认加载的插件有：
 * sharing
 * fontsettings
 * theme-default
+* favicon-absolute
 
 ## 第三方插件
 
@@ -560,12 +561,32 @@ token 从 Google Analytics 中获取
 给 GitBook 的站点添加百度统计，这样用户的访问数量可以通过百度统计查看到
 
 ```json
-"plugins": [
-  "baidu-tongji"
-],
-"pluginsConfig": {
-  "baidu-tongji": {
-    "token": "xxxxxx"
-  }
+{
+
+    "plugins": [
+        "baidu-tongji"
+    ],
+    "pluginsConfig": {
+        "baidu-tongji": {
+        "token": "xxxxxx"
+    }
+}
+```
+
+### favicon-absolute
+
+为网站设置 favicon
+
+```json
+{
+    "plugins": [
+        "favicon-absolute"
+    ],
+    "pluginsConfig": {
+        "favicon-absolute":{
+        "favicon": "/favicon.ico",
+        "appleTouchIconPrecomposed152": "/apple-touch-icon-precomposed-152.png"
+        }
+    }
 }
 ```
