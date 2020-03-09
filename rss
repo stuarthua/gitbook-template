@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[gitbook-template]]></title>
+        <description><![CDATA[基于 Legacy 版 Gitbook 的模版]]></description>
+        <link>https://stuarthua.github.io/gitbook-template/</link>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Mon, 09 Mar 2020 19:12:33 GMT</lastBuildDate>
+        <atom:link href="https://stuarthua.github.io/gitbook-template/rss" rel="self" type="application/rss+xml"/>
+        <author><![CDATA[Stuart Hua]]></author>
+        <managingEditor><![CDATA[stuarthua.cn@gmail.com]]></managingEditor>
+        <webMaster><![CDATA[stuarthua.cn@gmail.com]]></webMaster>
+        <item>
+            <title><![CDATA[Gitbook Template]]></title>
+            <description><![CDATA[基于 Legacy 版 Gitbook 的模版]]></description>
+            <link>https://stuarthua.github.io/gitbook-template/</link>
+            <guid isPermaLink="true">https://stuarthua.github.io/gitbook-template/</guid>
+            <dc:creator><![CDATA[Stuart Hua]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[第一章标题]]></title>
+            <description><![CDATA[普通的无序列表：]]></description>
+            <link>https://stuarthua.github.io/gitbook-template/mybook/1-Basic/README.html</link>
+            <guid isPermaLink="true">https://stuarthua.github.io/gitbook-template/mybook/1-Basic/README.html</guid>
+            <dc:creator><![CDATA[Stuart Hua]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[第一章第一节]]></title>
+            <description><![CDATA[第一章第一节的内容]]></description>
+            <link>https://stuarthua.github.io/gitbook-template/mybook/1-Basic/001.html</link>
+            <guid isPermaLink="true">https://stuarthua.github.io/gitbook-template/mybook/1-Basic/001.html</guid>
+            <dc:creator><![CDATA[Stuart Hua]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[第一章第二节]]></title>
+            <description><![CDATA[第一章第二节的内容]]></description>
+            <link>https://stuarthua.github.io/gitbook-template/mybook/1-Basic/002.html</link>
+            <guid isPermaLink="true">https://stuarthua.github.io/gitbook-template/mybook/1-Basic/002.html</guid>
+            <dc:creator><![CDATA[Stuart Hua]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Gitbook 说明]]></title>
+            <link>https://stuarthua.github.io/gitbook-template/mybook/2-Wiki/README.html</link>
+            <guid isPermaLink="true">https://stuarthua.github.io/gitbook-template/mybook/2-Wiki/README.html</guid>
+            <dc:creator><![CDATA[Stuart Hua]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[目录结构]]></title>
+            <description><![CDATA[GitBook 基本的目录结构如下所示：]]></description>
+            <link>https://stuarthua.github.io/gitbook-template/mybook/2-Wiki/structure.html</link>
+            <guid isPermaLink="true">https://stuarthua.github.io/gitbook-template/mybook/2-Wiki/structure.html</guid>
+            <dc:creator><![CDATA[Stuart Hua]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[GitBook 配置]]></title>
+            <description><![CDATA[Gitbook 配置文件 book.json, 记录了所有的配置信息，说明如下：]]></description>
+            <link>https://stuarthua.github.io/gitbook-template/mybook/2-Wiki/settings.html</link>
+            <guid isPermaLink="true">https://stuarthua.github.io/gitbook-template/mybook/2-Wiki/settings.html</guid>
+            <dc:creator><![CDATA[Stuart Hua]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[拓展]]></title>
+            <description><![CDATA[运行 gitbook init 得到的默认界面如下：]]></description>
+            <link>https://stuarthua.github.io/gitbook-template/mybook/3-Extend/README.html</link>
+            <guid isPermaLink="true">https://stuarthua.github.io/gitbook-template/mybook/3-Extend/README.html</guid>
+            <dc:creator><![CDATA[Stuart Hua]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[book.json 设置]]></title>
+            <description><![CDATA[预览效果：]]></description>
+            <link>https://stuarthua.github.io/gitbook-template/mybook/3-Extend/book-json.html</link>
+            <guid isPermaLink="true">https://stuarthua.github.io/gitbook-template/mybook/3-Extend/book-json.html</guid>
+            <dc:creator><![CDATA[Stuart Hua]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[设置 favicon]]></title>
+            <description><![CDATA[在项目根目录下新建 gitbook/images 目录]]></description>
+            <link>https://stuarthua.github.io/gitbook-template/mybook/3-Extend/setting-favicon.html</link>
+            <guid isPermaLink="true">https://stuarthua.github.io/gitbook-template/mybook/3-Extend/setting-favicon.html</guid>
+            <dc:creator><![CDATA[Stuart Hua]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[自定义样式 styles]]></title>
+            <description><![CDATA[在项目根目录下新建 styles 目录]]></description>
+            <link>https://stuarthua.github.io/gitbook-template/mybook/3-Extend/setting-styles.html</link>
+            <guid isPermaLink="true">https://stuarthua.github.io/gitbook-template/mybook/3-Extend/setting-styles.html</guid>
+            <dc:creator><![CDATA[Stuart Hua]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[使用 SUMMARY.md]]></title>
+            <link>https://stuarthua.github.io/gitbook-template/mybook/3-Extend/setting-summary.html</link>
+            <guid isPermaLink="true">https://stuarthua.github.io/gitbook-template/mybook/3-Extend/setting-summary.html</guid>
+            <dc:creator><![CDATA[Stuart Hua]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[使用 GLOSSARY.md]]></title>
+            <link>https://stuarthua.github.io/gitbook-template/mybook/3-Extend/setting-glossary.html</link>
+            <guid isPermaLink="true">https://stuarthua.github.io/gitbook-template/mybook/3-Extend/setting-glossary.html</guid>
+            <dc:creator><![CDATA[Stuart Hua]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[默认插件设置]]></title>
+            <description><![CDATA[Gitbook 3.2.3 默认加载的插件有：]]></description>
+            <link>https://stuarthua.github.io/gitbook-template/mybook/3-Extend/setting-default-plugin.html</link>
+            <guid isPermaLink="true">https://stuarthua.github.io/gitbook-template/mybook/3-Extend/setting-default-plugin.html</guid>
+            <dc:creator><![CDATA[Stuart Hua]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[GitBook 插件]]></title>
+            <description><![CDATA[Gitbook 3.2.3 默认加载的插件有：]]></description>
+            <link>https://stuarthua.github.io/gitbook-template/mybook/3-Extend/some-plugin.html</link>
+            <guid isPermaLink="true">https://stuarthua.github.io/gitbook-template/mybook/3-Extend/some-plugin.html</guid>
+            <dc:creator><![CDATA[Stuart Hua]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[自动部署]]></title>
+            <description><![CDATA[使用 travis + gitbook + github pages 自动部署电子书]]></description>
+            <link>https://stuarthua.github.io/gitbook-template/mybook/3-Extend/publish.html</link>
+            <guid isPermaLink="true">https://stuarthua.github.io/gitbook-template/mybook/3-Extend/publish.html</guid>
+            <dc:creator><![CDATA[Stuart Hua]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[No title]]></title>
+            <description><![CDATA[分散式版本控制软件]]></description>
+            <link>https://stuarthua.github.io/gitbook-template/GLOSSARY.html</link>
+            <guid isPermaLink="true">https://stuarthua.github.io/gitbook-template/GLOSSARY.html</guid>
+            <dc:creator><![CDATA[Stuart Hua]]></dc:creator>
+        </item>
+    </channel>
+</rss>
