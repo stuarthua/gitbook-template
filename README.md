@@ -28,7 +28,3 @@ gitbook serve
 ```
 
 * 在浏览器中查看 [http://localhost:4000](http://localhost:4000)
-
-效果预览：
-
-![Snipaste_2019-09-15_18-31-15.png](https://raw.githubusercontent.com/stuarthua/PicGo/master/oh-my-openwrt/Snipaste_2019-09-15_18-31-15.png)
